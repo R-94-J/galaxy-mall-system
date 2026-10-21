@@ -1,0 +1,25 @@
+{
+  "name": "mall-admin-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0"
+  },
+  "dependencies": {
+    "@vitejs/plugin-vue": "^6.0.1",
+    "axios": "^1.13.2",
+    "echarts": "^6.0.0",
+    "element-plus": "^2.12.0",
+    "lucide-vue-next": "^0.561.0",
+    "pinia": "^3.0.4",
+    "vite": "^7.3.0",
+    "vue": "^3.5.26",
+    "vue-router": "^4.6.4"
+  },
+  "devDependencies": {
+    "playwright": "^1.61.1"
+  }
+}
